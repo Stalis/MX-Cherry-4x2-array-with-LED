@@ -153,7 +153,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.1998,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.005,
@@ -506,7 +506,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.1998,
         "tuning_profile": "",
         "via_diameter": 0.5,
         "via_drill": 0.3,
@@ -661,13 +661,77 @@
         "uuid": "086a0f0d-d0f4-4759-8ac2-beebad952dcf"
       }
     ],
-    "used_designators": "J1-2,D1-8,SW1-8",
+    "used_designators": "RLED2-8,DD2,J1-2,D1-16,SW1-16",
     "variants": []
   },
   "sheets": [
     [
       "086a0f0d-d0f4-4759-8ac2-beebad952dcf",
       "Root"
+    ],
+    [
+      "445b3055-3a9e-477f-bb62-bdfbc965ee56",
+      "Switch module"
+    ],
+    [
+      "bcbcb72d-3e91-4db4-bcd9-c35bc92269d3",
+      "LED Module"
+    ],
+    [
+      "7248eec1-4a94-45b8-89dc-30e805b25c92",
+      "Switch module1"
+    ],
+    [
+      "48910e66-5464-40c2-8a51-151fb54c1586",
+      "Switch module2"
+    ],
+    [
+      "3008235b-8175-433b-96e3-5faac0d108e2",
+      "Switch module3"
+    ],
+    [
+      "7726b60b-b6b4-41e0-a27b-8f7d36cf7ca8",
+      "Switch module4"
+    ],
+    [
+      "e3a47f22-a2a0-4f1f-8760-93a216eba1ce",
+      "Switch module5"
+    ],
+    [
+      "e102f4e2-3dde-4dd7-8878-cc2c5ebaac9d",
+      "Switch module6"
+    ],
+    [
+      "d3932cb0-f936-419c-a254-e55a806b8138",
+      "Switch module7"
+    ],
+    [
+      "043a8406-7966-4bc4-93db-3aac10b058c1",
+      "LED Module1"
+    ],
+    [
+      "1f24cb5e-5294-4489-986d-95af34359952",
+      "LED Module2"
+    ],
+    [
+      "11dddf8c-efb6-44c0-906e-482d25c8a6c1",
+      "LED Module3"
+    ],
+    [
+      "84eef100-9c4b-484c-95f6-a77bcebdc58f",
+      "LED Module4"
+    ],
+    [
+      "86274071-820c-4070-9eba-4e45afadd01b",
+      "LED Module5"
+    ],
+    [
+      "be12a9ba-d332-4157-8cbd-783d60af2fa0",
+      "LED Module6"
+    ],
+    [
+      "0b18af4b-9b8b-4bca-ab54-9d1c74762d4e",
+      "LED Module7"
     ]
   ],
   "text_variables": {},
