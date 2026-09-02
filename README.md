@@ -1,5 +1,10 @@
 # MX Cherry 4x2
 
+## PCB Renders
+
+<img src="images/pcb-top.png" alt="Top-side PCB render" width="49%">
+<img src="images/pcb-bottom.png" alt="Bottom-side PCB render" width="49%">
+
 Compact 8-key Cherry MX keyboard module: 4 columns x 2 rows. It has no onboard microcontroller and is intended for connection to an external controller or breadboard.
 
 ## Features
