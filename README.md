@@ -54,6 +54,16 @@ The controller must scan both matrices externally. The PCB has no LED current-li
 
 The schematic does not specify diode ratings or LED color and electrical parameters. Select them for the voltage and current of the external driver.
 
+## DRC Notes
+
+The following DRC findings are expected for this layout and should be excluded individually with a comment in KiCad after mechanical clearance is confirmed. Do not disable these checks globally.
+
+| DRC check | Count | Rationale |
+| --- | --- | --- |
+| `npth_inside_courtyard` | 8 | The Cherry MX locating holes are through-holes, while `J1` and `J2` are bottom-side SMD connectors. The overlaps are courtyard-only; verify the connector body and pads clear the switch locating pins. |
+| `courtyards_overlap` | 8 | Each top-side LED is intentionally placed at its associated switch for backlighting. |
+| `footprint_symbol_field_mismatch` | 8 warnings | Diodes `D1-D8` have a schematic-only `Sim.Device` field that is absent from their footprints. This does not affect fabrication or electrical connectivity. |
+
 ## Repository Files
 
 - `MX Cherry 4x2.kicad_pro` - KiCad project.
